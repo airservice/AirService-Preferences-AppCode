@@ -6,7 +6,7 @@ module Helpers
   end
 
   def repo_path_to(file_or_dir)
-    File.expand_path(File.join(File.dirname(File.expand_path(__FILE__)), "..", "..", "appCode20", file_or_dir))
+    File.expand_path(File.join(File.dirname(File.expand_path(__FILE__)), "..", "..", "appCodeXX", file_or_dir))
   end
 end
 

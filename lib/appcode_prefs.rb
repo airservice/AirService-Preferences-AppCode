@@ -7,7 +7,7 @@ require "appcode_prefs/commands/backups/backup"
 require "appcode_prefs/commands/backups/restore"
 require "appcode_prefs/commands/backups/file"
 
-source_location   = File.join(File.dirname(File.expand_path(__FILE__)), "..", "appCode20")
+source_location   = File.join(File.dirname(File.expand_path(__FILE__)), "..", "appCodeXX")
 options           = Dir[File.join(source_location, "options", "**", "*")].map { |file| file.gsub %r{.*/(options.*)}, '\1' }
 target_location   = ENV['TARGET_DIR'] || Dir[File.expand_path(File.join("~", "Library", "Preferences", "appCode*"))].last
 
