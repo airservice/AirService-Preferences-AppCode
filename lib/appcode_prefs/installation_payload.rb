@@ -1,4 +1,4 @@
-module MinePrefs
+module AppcodePrefs
   class InstallationPayload
     include Enumerable
 

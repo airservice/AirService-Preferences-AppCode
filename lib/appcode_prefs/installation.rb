@@ -1,4 +1,4 @@
-module MinePrefs
+module AppcodePrefs
   class Installation
     attr_reader :install_commands, :uninstall_commands, :installation_payload
 

@@ -1,7 +1,7 @@
-require "mine_prefs/commands/backups/backup"
-require "mine_prefs/commands/backups/file"
+require "appcode_prefs/commands/backups/backup"
+require "appcode_prefs/commands/backups/file"
 
-module MinePrefs
+module AppcodePrefs
   module Commands
     module Backups
       describe Backup do

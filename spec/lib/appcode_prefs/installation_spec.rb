@@ -1,6 +1,6 @@
-require "mine_prefs/installation"
+require "appcode_prefs/installation"
 
-module MinePrefs
+module AppcodePrefs
   describe Installation do
     describe "#install" do
       it "tells all of the install commands to execute" do

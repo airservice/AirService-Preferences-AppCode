@@ -1,6 +1,6 @@
-require "mine_prefs/commands/symlink"
+require "appcode_prefs/commands/symlink"
 
-module MinePrefs
+module AppcodePrefs
   module Commands
     describe Symlink do
       describe "#execute" do

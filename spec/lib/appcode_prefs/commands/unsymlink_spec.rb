@@ -1,6 +1,6 @@
-require "mine_prefs/commands/unsymlink"
+require "appcode_prefs/commands/unsymlink"
 
-module MinePrefs
+module AppcodePrefs
   module Commands
     describe Unsymlink do
       describe "#execute" do

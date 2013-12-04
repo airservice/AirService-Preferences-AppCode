@@ -1,6 +1,6 @@
-require "mine_prefs/installation_payload"
+require "appcode_prefs/installation_payload"
 
-module MinePrefs
+module AppcodePrefs
   describe InstallationPayload do
     describe "#target_files" do
       it "returns the target install location of all the source files to install" do

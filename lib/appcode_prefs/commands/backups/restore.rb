@@ -1,9 +1,7 @@
-module MinePrefs
+module AppcodePrefs
   module Commands
     module Backups
-      class Backup
-        attr_reader :filesystem
-
+      class Restore
         def initialize(filesystem: FileUtils)
           @filesystem = filesystem
         end
@@ -11,11 +9,14 @@ module MinePrefs
         def execute(installation_bundle)
           installation_bundle.target_files.each do |target_file|
             begin
-              filesystem.mv(target_file, MinePrefs::Commands::Backups::File.new(target_file).to_s, force: true)
+              filesystem.mv(AppcodePrefs::Commands::Backups::File.new(target_file).to_s, target_file)
             rescue Errno::ENOENT
             end
           end
         end
+
+        private
+        attr_reader :filesystem
       end
     end
   end

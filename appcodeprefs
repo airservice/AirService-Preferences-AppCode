@@ -4,4 +4,4 @@ raise "You must use ruby 2.0.0 or greater to use this command" unless RUBY_VERSI
 
 $LOAD_PATH.unshift "./lib"
 
-require "mine_prefs"
+require "appcode_prefs"

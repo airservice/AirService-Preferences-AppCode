@@ -1,4 +1,4 @@
-module MinePrefs
+module AppcodePrefs
   module Commands
     module Backups
       class File

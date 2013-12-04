@@ -1,4 +1,4 @@
-module MinePrefs
+module AppcodePrefs
   module Commands
     class Unsymlink
       def initialize(filesystem: FileUtils)
