@@ -5,9 +5,6 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
-      <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="OTHER" value="false" />
@@ -20,9 +17,6 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
-      <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="OTHER" value="false" />
